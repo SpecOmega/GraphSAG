@@ -1,5 +1,7 @@
 # GraphSAG
 
+[简体中文文档](README.zh-CN.md)
+
 Graph-based Security Assurance and Governance for autonomous-agent systems.
 
 Current version: **1.0.0**.
