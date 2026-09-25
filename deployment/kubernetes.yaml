@@ -1,0 +1,13 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: {name: graphsag}
+spec:
+  replicas: 2
+  selector: {matchLabels: {app: graphsag}}
+  template:
+    metadata: {labels: {app: graphsag}}
+    spec:
+      containers:
+      - name: graphsag
+        image: graphsag:1.0.0
+        securityContext: {allowPrivilegeEscalation: false, readOnlyRootFilesystem: true}
