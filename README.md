@@ -19,6 +19,10 @@ pytest -q
 
 The project intentionally keeps the LLM provider behind an adapter. A DeepSeek V4-compatible integration must not bypass the deterministic security kernel.
 
+## Example
+
+See the runnable end-to-end payment-agent example in [`examples/README.md`](examples/README.md).
+
 ## Status
 
 GraphSAG 1.0.0 is a reference security-governance kernel. It is not universal certification, a zero-vulnerability claim, or a substitute for deployment-specific security review.

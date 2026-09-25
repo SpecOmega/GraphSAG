@@ -1029,6 +1029,7 @@ Governance
 
 ## 相关文档
 
+- [端到端支付 Agent 示例](examples/README.md)
 - [系统架构](docs/ARCHITECTURE.md)
 - [安全边界](docs/SECURITY-BOUNDARIES.md)
 - [威胁模型](docs/THREAT-MODEL.md)
